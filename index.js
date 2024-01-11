@@ -38,7 +38,7 @@ console.log(`${client.user.tag} is Ready!`)
   
   
 
-const channel = await client.channels.cache.get("1138806062619832390")
+const channel = await client.channels.cache.get("1158494236770058322")
 let chats = [
   `The greatest glory in living lies not in never falling, but in rising every time we fall.`,
   `The way to get started is to quit talking and begin doing.`,
