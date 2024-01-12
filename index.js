@@ -73,7 +73,21 @@ channel.send(msg)
 
 })
 
-      client.login(process.env.token).catch(() => {
+      client.login(process.env.token1).catch(() => {
+        client.login(process.env.token2).catch(() => {
+          client.login(process.env.token3).catch(() => {
+            client.login(process.env.token4).catch(() => {
+              client.login(process.env.token5).catch(() => {
+                client.login(process.env.token6).catch(() => {
+                  client.login(process.env.token7).catch(() => {
+                    client.login(process.env.token8).catch(() => {
+                      client.login(process.env.token9).catch(() => {
+                        client.login(process.env.token10).catch(() => {
+                      client.login(process.env.token11).catch(() => {
+                        client.login(process.env.token12).catch(() => {
+                          client.login(process.env.token13).catch(() => {
+                            client.login(process.env.token14).catch(() => {
+                              client.login(process.env.token15).catch(() => {
   console.log(`token is invalid`)
 })
 
